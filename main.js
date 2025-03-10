@@ -13,5 +13,6 @@ const imagePaths = [
 
 const container = document.getElementById('main-container');
 
-const carousel = new ImageCarousel(imagePaths, 0, '100%', '100%');
-carousel.renderCarousel('main-container');
+const carousel = new ImageCarousel(imagePaths, 0, '400px', '300px');
+container.appendChild(carousel.renderCarousel());
+
